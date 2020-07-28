@@ -1,0 +1,27 @@
+,Value,,Part No,Mouser Link
+">  C1, C10",10u,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Taiyo Yuden LMK212ABJ106MG-T,https://www.mouser.com/ProductDetail/Taiyo-Yuden/LMK212ABJ106MG-T?qs=sGAEpiMZZMvsSlwiRhF8qvXH2%252BT6Wjq1t8ACsuXllU1k0%252Bz27cKzeQ%3D%3D 
+">  C3, C5, C7-C9",100n,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,"Taiyo Yuden 
+GMK212BJ104KGHT",https://www.mouser.com/ProductDetail/Taiyo-Yuden/GMK212BJ104KGHT?qs=sGAEpiMZZMvsSlwiRhF8qvCjIVACn89ZIFj3S%2FnwgQU%3D 
+">  C2, C4",4.7n,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Kemet C0805C472K5RACTU,https://www.mouser.com/ProductDetail/KEMET/C0805C472K5RACTU?qs=sGAEpiMZZMs0AnBnWHyRQKp5FInkmPX80nEF8lJoBMw%3D 
+    CRST1,10u,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Taiyo Yuden LMK212ABJ106MG-T,https://www.mouser.com/ProductDetail/Taiyo-Yuden/LMK212ABJ106MG-T?qs=sGAEpiMZZMvsSlwiRhF8qvXH2%252BT6Wjq1t8ACsuXllU1k0%252Bz27cKzeQ%3D%3D 
+    CUSB1,4.7n,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Kemet C0805C472K5RACTU,https://www.mouser.com/ProductDetail/KEMET/C0805C472K5RACTU?qs=sGAEpiMZZMs0AnBnWHyRQKp5FInkmPX80nEF8lJoBMw%3D 
+    D1,RB060M-60TR,acheronComponents:D_SOD-123,RB060MM-60TFTR ,https://www.mouser.com/ProductDetail/ROHM-Semiconductor/RB060MM-60TFTR?qs=sGAEpiMZZMtQ8nqTKtFS%2FE7Jc%252BkgrGbhs5GuoZe3ReDLIaoCmfxwww%3D%3D 
+    D2,1N4007,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,EIC 1N4007,https://www.taydaelectronics.com/1n4007-1a-1000v-rectifier-diode.html 
+    D3,1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,,https://www.taydaelectronics.com/1n4148-switching-signal-diode.html 
+    F1,Polyfuse,Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder,Littelfuse 1812L075PR,https://www.mouser.com/ProductDetail/Littelfuse/1812L075PR?qs=sGAEpiMZZMsxR%252BBXi4wRUCTGuoKQj3D%2FK9cgjuNQ%2Fik%3D 
+">  H1, H2",MountingHole,MountingHole:MountingHole_3.2mm_M3_ISO7380,,
+    J1,Conn_ARM_JTAG_SWD_10,Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,,
+    J2,Conn_01x09_Male,Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical,,
+    J3,TYPE-C-31-M12_13,acheronConnectors:TYPE-C-31-M-12,HRO Type-C-31-M-12,https://lcsc.com/product-detail/USB-Connectors_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html 
+    J4,Conn_01x22_Male,Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical,Wurth  61304011121,https://www.mouser.com/ProductDetail/Wurth-Elektronik/61304011121?qs=sGAEpiMZZMs%252BGHln7q6pm%2FFhW%252BtWvhAguiHBfy89WCWigquiiRi%2FwQ%3D%3D 
+    J5,Conn_01x07_Male,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,Wurth  61304011121,https://www.mouser.com/ProductDetail/Wurth-Elektronik/61304011121?qs=sGAEpiMZZMs%252BGHln7q6pm%2FFhW%252BtWvhAguiHBfy89WCWigquiiRi%2FwQ%3D%3D 
+    Q1,DTC123J,Package_TO_SOT_SMD:SOT-23,Diodes Inc DDTC123JCA-7-F,https://www.mouser.com/ProductDetail/Diodes-Incorporated/DDTC123JCA-7-F?qs=sGAEpiMZZMshyDBzk1%2FWixjEwdLKNE5UP%252BQM89nDXio%3D 
+    Q2,AO4406AL,acheronComponents:SOIC-8,,
+">  R1, R2",100k,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Vishay CRCW0805100KJNEAC,
+    R3,1M,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Vishay CRCW08051M00FKEAC,
+">  R4, R5",5.1k,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Bourns CR0805-FX-5101ELF,
+    R6,100,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder, Vishay CRCW0805100RFKEAC,
+    R7,10k,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Vishay CRCW080510K0FKEAC,
+    U1,STM32F072CBTx,Package_QFP:LQFP-48_7x7mm_P0.5mm,ST STM32F072CBT6,https://www.mouser.com/ProductDetail/511-STM32F072CBT6 
+    U2,TLV1117-33,Package_TO_SOT_SMD:SOT-223-3_TabPin2,TI TLV1117-33IDCYR,
+    U3,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,USBLC6-2SC6Y ,https://www.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2SC6Y?qs=sGAEpiMZZMvxHShE6Whpu0iw15lckA56359l3m%252BHIio%3D 
