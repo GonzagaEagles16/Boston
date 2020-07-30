@@ -636,7 +636,6 @@
           "Net-(R710-Pad1)",
           "Net-(R710-Pad2)",
           "Net-(U1-Pad5)",
-          "Net-(U1-Pad6)",
           "Net-(U1-Pad7)",
           "RGBLED",
           "Row1",
@@ -696,7 +695,7 @@
   },
   "sheets": [
     [
-      "4a91d6d9-e0c3-4c07-8123-3ca0d9b0dd5c",
+      "ae8c20e4-da7b-4ae9-aee3-99a16bb5adf0",
       ""
     ]
   ],

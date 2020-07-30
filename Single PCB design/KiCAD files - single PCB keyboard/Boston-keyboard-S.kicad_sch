@@ -2594,8 +2594,8 @@
   (junction (at 1074.42 33.02) (diameter 0) (color 0 0 0 0))
   (junction (at 1084.58 33.02) (diameter 0) (color 0 0 0 0))
 
-  (no_connect (at 986.79 132.08))
   (no_connect (at 986.79 129.54))
+  (no_connect (at 986.79 132.08))
   (no_connect (at 826.77 83.82))
   (no_connect (at 826.77 86.36))
 
