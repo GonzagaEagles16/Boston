@@ -306,7 +306,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "nets": [],
+        "nets": [
+          "FrontCuFill"
+        ],
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4
@@ -322,7 +324,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "bottom.step",
       "vmrl": ""
     },
     "page_layout_descr_file": ""
@@ -352,7 +354,7 @@
   },
   "sheets": [
     [
-      "499ea9fd-a4a0-4f58-bbde-874525e03f37",
+      "6ecefc7f-6267-488a-ad3c-f77e6e636845",
       ""
     ]
   ],
