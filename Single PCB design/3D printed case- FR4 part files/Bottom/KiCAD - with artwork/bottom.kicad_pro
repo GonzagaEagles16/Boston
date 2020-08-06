@@ -352,12 +352,13 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
   "sheets": [
     [
-      "96eadd65-aa87-4a5f-a793-8b04827537c7",
+      "15d84f8a-f5e3-41f1-9770-721b30a54f42",
       ""
     ]
   ],
