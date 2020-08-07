@@ -9,11 +9,15 @@ The immediate inspiration for Boston was the DriftMechanics [Austin](https://git
 
 The Geekhack build thread on this keyboard [here](https://geekhack.org/index.php?topic=106239.0).
 
-The name is a pun off Austin, since the layout is derived from it.
+The name is a pun off Austin, since the layout is derived from it. I also grew up in Boston. 
 
 ## Status
 
-This is a work in progress. The current PCB files (as of July 6, 2020) have been sent out to JLCPCB for fab and will be prototyped shortly. The firmware still needs some work.
+This is a work in progress. 
+
+The current version (in the "Single PCB design") has not yet been prototyped. 
+
+An older version (in the "Boston V0 - Two PCB design" folder) used a two-PCB design with the controller on a daughterboard. That version has been built and is verified working. The matrix between the two versions are different. The older version also does not support split backspace.
 
 Case files will be released after one or more rounds of group buys have been run. This is unfortunately necessary to prevent third party group buys from running parallel to the main group buy for the time being. 
 
@@ -30,13 +34,12 @@ Note - The 1u Numpad + and - switches, in substitution of the normal 2u + key, a
 ## Renders
 
 Renders done with [tracespace.io](https://tracespace.io/).
-![Keyboard top](https://github.com/bluepylons/Boston/raw/master/graphics/keyboard-top-V0.3.png)
-![Keyboard bottom](https://github.com/bluepylons/Boston/raw/master/graphics/keyboard-bottom-V0.3.png)
-![Controller top](https://github.com/bluepylons/Boston/raw/master/graphics/controller-top-V0.3.png)
-![Controller bottom](https://github.com/bluepylons/Boston/raw/master/graphics/controller-bottom-V0.3.png)
+![Keyboard top](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-top-V0.4.png)
+![Keyboard bottom](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-bottom-V0.4.png)
 
-## Features:
+## Planned Features:
 * 121-key in standard ANSI configuration
+* Alps EC11E rotary encoder above the Escape key 
 * Full-size numpad with 2u "0" key
 * Traditional 2x3 Ins/Del/Home/End/PgUp/PgDn navblock 
 * Uses keys found in GMK base kits (except for programmable keys)
@@ -44,9 +47,7 @@ Renders done with [tracespace.io](https://tracespace.io/).
 * ISO enter key support 
 * Optional 3mm through-hole LED backlight (dimmable as a single block only)
 * USB-C
-* STM32F072 controller on a daughterboard that nests under the F5-F8 keys. Circuitry is derived from the Austin. 
-* The base keyboard without backlighting is all-throughole. Current-limiting resistors for the backlight LEDs are 0805 SMD though. All other SMD components are on the controller daughterboard. 
-* Optional Alps EC11E rotary encoder above the Escape key 
+* STM32F072 controller running QMK. Circuitry is derived from the Austin. 
 
 ## Copyright Notice
 
@@ -62,7 +63,7 @@ The KiCAD files are done using the nightly builds, as the Acheron Library is cur
 
 ## Errata 
 
-### Keyboard PCB Rev 0.2 errata
+### Keyboard PCB Rev 0.3 errata
 * The diode for the numpad enter-key hits the stabilizer wire, and has to be soldered onto the underside.
 * Some silk-screen overlaps with pads
 * Forgot the "Acheron Library"  text after the "Powered by" text
@@ -75,11 +76,11 @@ The KiCAD files are done using the nightly builds, as the Acheron Library is cur
 
 Many thanks to:
 * The [Acheron Project](http://acheronproject.com/) - the KiCAD library and the source files for the Austin have been invaluable for designing this board.
-* The designers of the Austin (Driftingbunnies, PheonixStarr and Gondolindrim)
+* The designers of the Austin (Driftingbunnies, PheonixStarr and Gondolindrim). The layout and schematics were derived from that board.
 * Gondolindrim, for assistance and feedback with the PCB design, as for running the Acheron project
 * KiCAD, for being an awesome free open-source PCB design tool
 * [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/), where I designed the layout. 
-* [Swill's plate generator](http://builder.swillkb.com/), which I used for making the plate.
+* [Swill's plate generator](http://builder.swillkb.com/) and [Ai03's plate generator](https://kbplate.ai03.com/), which I used for making the plate.
 
 
 
