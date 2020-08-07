@@ -61,16 +61,9 @@ The KiCAD files are done using the nightly builds, as the Acheron Library is cur
 
  The KiCAD files use projet-specific paths to the Acheron Library. To set this up - in KiCAD, open Preferences > Configure Paths. Add a new entry, with ACHERONLIB for the name, and for the path, the directory where the AcheronLibrary folder resides in.
 
-## Errata 
+## Errata (V0.4)
 
-### Keyboard PCB Rev 0.3 errata
-* The diode for the numpad enter-key hits the stabilizer wire, and has to be soldered onto the underside.
-* Some silk-screen overlaps with pads
-* Forgot the "Acheron Library"  text after the "Powered by" text
-
-### Controller PCB Rev 0.2 errata
-* The FB pin for the AP63203WU-7 buck controller was mistakenly routed to ground. **This will cause 5V to appear at the output and kill the controller**. 
-* The ARM SWD header uses a 1x10 header instead of a 2x5 header. 
+TBD
 
 ## Acknowledgements
 
