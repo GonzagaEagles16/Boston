@@ -17,7 +17,7 @@ This is a work in progress.
 
 The current version (in the "Single PCB design") has not yet been prototyped. 
 
-An older version (in the "Boston V0 - Two PCB design" folder) used a two-PCB design with the controller on a daughterboard. That version has been built and is verified working. The matrix between the two versions are different. The older version also does not support split backspace.
+An older version (V0.3) used a two-PCB design with the controller on a daughterboard. That version has been built and is verified working. The matrix between V0.3 and newer versions are different. The older version also does not support split backspace.
 
 Case files will be released after one or more rounds of group buys have been run. This is unfortunately necessary to prevent third party group buys from running parallel to the main group buy for the time being. 
 
