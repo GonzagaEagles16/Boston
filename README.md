@@ -53,7 +53,7 @@ Renders done with [tracespace.io](https://tracespace.io/).
 
 The PCB files and hardware designs are released under the [Acheron Open-Hardware License V1.2](http://acheronproject.com/license/license.html). 
 
-All files in "QMK files (temporary home)" under the "BostonV0 - two PCB design", like all other QMK firmware, are released under the [GNU Public License, Version 2](https://github.com/qmk/qmk_firmware/blob/master/LICENSE). 
+All files in "QMK files (temporary home)" under the "BostonV0.3 - two PCB design", like all other QMK firmware, are released under the [GNU Public License, Version 2](https://github.com/qmk/qmk_firmware/blob/master/LICENSE). 
 
 ## Libraries
 
