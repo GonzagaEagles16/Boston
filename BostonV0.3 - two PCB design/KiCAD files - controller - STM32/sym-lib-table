@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name acheronSymbols)(type Legacy)(uri ${ACHERONLIB}/AcheronLibrary/symbols/acheronSymbols.lib)(options "")(descr ""))
+  (lib (name Boston-controller-STM32-rescue)(type Legacy)(uri ${KIPRJMOD}/Boston-controller-STM32-rescue.lib)(options "")(descr ""))
+)
