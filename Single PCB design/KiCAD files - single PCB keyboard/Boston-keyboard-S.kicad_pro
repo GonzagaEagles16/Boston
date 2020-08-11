@@ -47,9 +47,9 @@
           "width": 0.3
         },
         {
-          "gap": 0.0,
+          "gap": 0.3,
           "via_gap": 0.0,
-          "width": 0.0
+          "width": 0.3
         }
       ],
       "drc_exclusions": [],
@@ -122,6 +122,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.8
         }
       ],
       "zones_use_no_outline": false
