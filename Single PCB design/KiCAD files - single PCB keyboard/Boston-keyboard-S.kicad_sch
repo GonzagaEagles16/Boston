@@ -14187,7 +14187,7 @@
   (symbol (lib_id "Device:C") (at 440.69 407.67 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "a3070f96-f593-482a-93df-5b1621502866")
-    (property "Reference" "C1" (id 0) (at 444.5 411.48 90)
+    (property "Reference" "C713" (id 0) (at 433.07 408.94 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF" (id 1) (at 436.88 408.94 90)
@@ -17005,9 +17005,6 @@
     (path "/5b220c10-7ac7-4c3c-8e2d-86668ccb0ffc"
       (reference "#PWR0704") (unit 1)
     )
-    (path "/a3070f96-f593-482a-93df-5b1621502866"
-      (reference "C1") (unit 1)
-    )
     (path "/00000000-0000-0000-0000-00005ed38979"
       (reference "C701") (unit 1)
     )
@@ -17043,6 +17040,9 @@
     )
     (path "/29f81124-4dca-4c4d-999f-524666f90c1b"
       (reference "C712") (unit 1)
+    )
+    (path "/a3070f96-f593-482a-93df-5b1621502866"
+      (reference "C713") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005dd5be69"
       (reference "CRST1") (unit 1)
