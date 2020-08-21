@@ -55,6 +55,8 @@ The PCB files and hardware designs are released under the [Acheron Open-Hardware
 
 All files in "QMK files (temporary home)", like all other QMK firmware, are released under the [GNU Public License, Version 2](https://github.com/qmk/qmk_firmware/blob/master/LICENSE). 
 
+The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was created using OpenStreetMap data, © OpenStreetMap contributors, under OpenStreetMap's [conditions](https://www.openstreetmap.org/copyright). 
+
 ## Libraries
 
 The KiCAD files are done using the nightly builds, as the Acheron Library is currently on the nightlies and aren't compatible with the 5.1.6 stable build. This will be updated over to the next stable KiCAD release whenever that comes out (which will  be the release is after 5.1.6) This project uses the [Acheron Library](https://github.com/AcheronProject/AcheronLibrary).
@@ -74,6 +76,6 @@ Many thanks to:
 * KiCAD, for being an awesome free open-source PCB design tool
 * [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/), where I designed the layout. 
 * [Swill's plate generator](http://builder.swillkb.com/) and [Ai03's plate generator](https://kbplate.ai03.com/), which I used for making the plate.
-
+* [Maperitive](http://maperitive.net/) and [OpenStreetMap](https://www.openstreetmap.org/#map=4/38.01/-95.84), which was used to generate the map artwork on the bottom of the 3D-printed/FR4 case. 
 
 
