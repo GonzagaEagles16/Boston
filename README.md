@@ -15,7 +15,7 @@ The name is a pun off Austin, since the layout is derived from it. I also grew u
 
 This is a work in progress. 
 
-The current version (in the "Single PCB design") has not yet been prototyped. 
+The current version (in the "Single PCB design") is currently being prototyped. A list of errata will be produced once it has been fully tested. 
 
 An older version (V0.3) used a two-PCB design with the controller on a daughterboard. That version has been built and is verified working. The matrix between V0.3 and newer versions are different. The older version also does not support split backspace.
 
@@ -61,7 +61,7 @@ The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was 
 
 The KiCAD files are done using the nightly builds, as the Acheron Library is currently on the nightlies and aren't compatible with the 5.1.6 stable build. This will be updated over to the next stable KiCAD release whenever that comes out (which will  be the release is after 5.1.6) This project uses the [Acheron Library](https://github.com/AcheronProject/AcheronLibrary).
 
- The KiCAD files use projet-specific paths to the Acheron Library. To set this up - in KiCAD, open Preferences > Configure Paths. Add a new entry, with ACHERONLIB for the name, and for the path, the directory where the AcheronLibrary folder resides in.
+ The KiCAD files use project-specific paths to the Acheron Library. To set this up - in KiCAD, open Preferences > Configure Paths. Add a new entry, with ACHERONLIB for the name, and for the path, the directory where the AcheronLibrary folder resides in.
 
 ## Errata (V0.4)
 
@@ -71,9 +71,9 @@ TBD
 
 Many thanks to:
 * The [Acheron Project](http://acheronproject.com/) - the KiCAD library and the source files for the Austin have been invaluable for designing this board.
-* The designers of the Austin (Driftingbunnies, PheonixStarr and Gondolindrim). The layout and schematics were derived from that board.
-* Gondolindrim, for assistance and feedback with the PCB design, as for running the Acheron project
-* KiCAD, for being an awesome free open-source PCB design tool
+* The designers of the Austin (Driftingbunnies, PheonixStarr and Gondolindrim). The layout, schematics, and firmware were derived from that board.
+* Gondolindrim, for assistance and feedback with the PCB design, as for running the Acheron project.
+* KiCAD, for being an awesome free open-source PCB design tool.
 * [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/), where I designed the layout. 
 * [Swill's plate generator](http://builder.swillkb.com/) and [Ai03's plate generator](https://kbplate.ai03.com/), which I used for making the plate.
 * [Maperitive](http://maperitive.net/) and [OpenStreetMap](https://www.openstreetmap.org/#map=4/38.01/-95.84), which was used to generate the map artwork on the bottom of the 3D-printed/FR4 case. 
