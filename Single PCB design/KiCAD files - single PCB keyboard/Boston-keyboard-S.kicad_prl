@@ -55,13 +55,15 @@
       27,
       28,
       29,
-      30
+      30,
+      36,
+      37
     ],
     "visible_layers": "3ffff_80000001"
   },
   "meta": {
     "filename": "Boston-keyboard-S.kicad_prl",
-    "version": 1
+    "version": 2
   },
   "project": {
     "files": []

@@ -76,7 +76,6 @@
   (junction (at 203.2 86.36) (diameter 0.3048) (color 0 0 0 0))
   (junction (at 203.2 92.71) (diameter 0.3048) (color 0 0 0 0))
   (junction (at 203.2 99.06) (diameter 0.3048) (color 0 0 0 0))
-  (junction (at 234.95 92.71) (diameter 0.3048) (color 0 0 0 0))
 
   (wire (pts (xy 116.84 92.71) (xy 118.11 92.71))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -138,10 +137,7 @@
   (wire (pts (xy 203.2 99.06) (xy 203.2 105.41))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 234.95 86.36) (xy 234.95 92.71))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 234.95 92.71) (xy 234.95 97.79))
+  (wire (pts (xy 234.95 86.36) (xy 234.95 97.79))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
 
@@ -370,23 +366,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 237.49 92.71 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "63c0377d-5da0-46e0-8b20-29746cf47d80")
-    (property "Reference" "H13" (id 0) (at 242.57 91.44 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (id 1) (at 242.57 92.71 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.5mm_Pad" (id 2) (at 237.49 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 237.49 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 237.49 97.79 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "587302cf-ab79-45d3-8d0c-f3b140adfffc")
@@ -440,9 +419,6 @@
     )
     (path "/71d3cc04-0c26-406f-a506-ae0d54f003e2"
       (reference "H12") (unit 1)
-    )
-    (path "/63c0377d-5da0-46e0-8b20-29746cf47d80"
-      (reference "H13") (unit 1)
     )
     (path "/587302cf-ab79-45d3-8d0c-f3b140adfffc"
       (reference "H14") (unit 1)
