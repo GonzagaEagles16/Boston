@@ -340,7 +340,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "FR4-new-plate.step",
+      "step": "FR4-new-plate-split-space.step",
       "vmrl": ""
     },
     "page_layout_descr_file": ""
