@@ -78,7 +78,7 @@
   (net 0 "")
   (net 1 "Mounting-hole")
 
-  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F28A58E) (tstamp 042e54a7-a77b-401c-9f5a-0539bc1f0c79)
+  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F66FA34) (tstamp 042e54a7-a77b-401c-9f5a-0539bc1f0c79)
     (at 93 157.2)
     (path "/a40e95e6-43b3-4294-84f6-56c7f7ae9949")
     (attr through_hole)
@@ -95,11 +95,11 @@
       (tstamp 193aa556-11a9-49c0-849d-dcf2296b6392)
     )
     (fp_circle (center 0 0) (end 2.85 0) (layer "Dwgs.User") (width 0.12) (tstamp accb704c-f6c6-4128-9549-45e44b8c00bc))
-    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu "B.Mask")
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp d11a33c2-d454-4741-a7bc-8f33aec26a23))
   )
 
-  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F28A58E) (tstamp 04903893-6908-420d-9f5d-5fd784ec9e7b)
+  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F66FA1D) (tstamp 04903893-6908-420d-9f5d-5fd784ec9e7b)
     (at 373 5.375)
     (path "/39bb2e87-c3a0-460e-a941-e56ca4229079")
     (attr through_hole)
@@ -116,7 +116,7 @@
       (tstamp 193aa556-11a9-49c0-849d-dcf2296b6392)
     )
     (fp_circle (center 0 0) (end 2.85 0) (layer "Dwgs.User") (width 0.12) (tstamp accb704c-f6c6-4128-9549-45e44b8c00bc))
-    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu "B.Mask")
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 10c36fe6-41f6-4082-a31b-8221183ea980))
   )
 
@@ -144,7 +144,7 @@
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 27565ecc-2878-48e0-b8d1-0eade4941e12))
   )
 
-  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F28A58E) (tstamp 14bc6f49-5730-45f6-a95f-ee17deba4b4e)
+  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F66FA21) (tstamp 14bc6f49-5730-45f6-a95f-ee17deba4b4e)
     (at 373 157.2)
     (path "/17a19ca8-97b6-4e04-8b9d-dc41e14ca73a")
     (attr through_hole)
@@ -161,11 +161,11 @@
       (tstamp 193aa556-11a9-49c0-849d-dcf2296b6392)
     )
     (fp_circle (center 0 0) (end 2.85 0) (layer "Dwgs.User") (width 0.12) (tstamp accb704c-f6c6-4128-9549-45e44b8c00bc))
-    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu "B.Mask")
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp a4f5c5a0-39e3-434d-a1c8-ad5f089a4ab3))
   )
 
-  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F28A58E) (tstamp 1f136773-ba3a-412c-a7b2-75e2d9fa60da)
+  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F66FA26) (tstamp 1f136773-ba3a-412c-a7b2-75e2d9fa60da)
     (at 233 157.2)
     (path "/980b996b-b4e0-4cef-9949-f9a3c9e29343")
     (attr through_hole)
@@ -182,7 +182,7 @@
       (tstamp 193aa556-11a9-49c0-849d-dcf2296b6392)
     )
     (fp_circle (center 0 0) (end 2.85 0) (layer "Dwgs.User") (width 0.12) (tstamp accb704c-f6c6-4128-9549-45e44b8c00bc))
-    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu "B.Mask")
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 52f3f021-f106-4d57-995c-cf35070d8f98))
   )
 
@@ -258,7 +258,7 @@
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 8501f585-0556-4cb3-9b8c-7ef5ddd980fe))
   )
 
-  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F28A58E) (tstamp 502df1b6-03d0-447a-86ad-08b586e7de8e)
+  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F66FA12) (tstamp 502df1b6-03d0-447a-86ad-08b586e7de8e)
     (at 233 5.375)
     (path "/ac1c7d48-415e-47ec-81c0-7303086cc113")
     (attr through_hole)
@@ -275,11 +275,11 @@
       (tstamp 193aa556-11a9-49c0-849d-dcf2296b6392)
     )
     (fp_circle (center 0 0) (end 2.85 0) (layer "Dwgs.User") (width 0.12) (tstamp accb704c-f6c6-4128-9549-45e44b8c00bc))
-    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu "B.Mask")
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 62d4b509-d8f2-42d7-9841-9be8d340640c))
   )
 
-  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F28A58E) (tstamp 51f3fed8-b17f-4a85-9cb3-36e53265db97)
+  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F66F9FC) (tstamp 51f3fed8-b17f-4a85-9cb3-36e53265db97)
     (at 23 5.375)
     (path "/49f5d852-5f76-40b3-9547-d8c597bb6529")
     (attr through_hole)
@@ -296,7 +296,7 @@
       (tstamp 193aa556-11a9-49c0-849d-dcf2296b6392)
     )
     (fp_circle (center 0 0) (end 2.85 0) (layer "Dwgs.User") (width 0.12) (tstamp accb704c-f6c6-4128-9549-45e44b8c00bc))
-    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu "B.Mask")
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 030be685-7827-4270-ac21-19e5f5239c30))
   )
 
@@ -372,7 +372,7 @@
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 89533b10-0cec-43af-9aa8-396e1b7dc003))
   )
 
-  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F28A58E) (tstamp 676a709e-bae1-4be9-bcd2-c16a4af777d1)
+  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F66FA39) (tstamp 676a709e-bae1-4be9-bcd2-c16a4af777d1)
     (at 23 157.2)
     (path "/76b92ae8-8793-4042-8eec-f12c9aa3ad3c")
     (attr through_hole)
@@ -389,7 +389,7 @@
       (tstamp 193aa556-11a9-49c0-849d-dcf2296b6392)
     )
     (fp_circle (center 0 0) (end 2.85 0) (layer "Dwgs.User") (width 0.12) (tstamp accb704c-f6c6-4128-9549-45e44b8c00bc))
-    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu "B.Mask")
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 08a51960-69b7-49b3-841e-7a6ea67862fc))
   )
 
@@ -441,7 +441,7 @@
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 80925526-08a9-4142-86ca-1389dedd6d3b))
   )
 
-  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F28A58E) (tstamp 78d0f6e7-18c6-4a54-a36f-fdd31a055a75)
+  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F66FA0E) (tstamp 78d0f6e7-18c6-4a54-a36f-fdd31a055a75)
     (at 163 5.375)
     (path "/13848cb7-809b-49de-b236-28011cc25f73")
     (attr through_hole)
@@ -458,7 +458,7 @@
       (tstamp 193aa556-11a9-49c0-849d-dcf2296b6392)
     )
     (fp_circle (center 0 0) (end 2.85 0) (layer "Dwgs.User") (width 0.12) (tstamp accb704c-f6c6-4128-9549-45e44b8c00bc))
-    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu "B.Mask")
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 2875cf94-8301-421a-8252-51b170d10fb6))
   )
 
@@ -606,7 +606,7 @@
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 40c1a1bf-19ef-482e-9b54-0a750f619e89))
   )
 
-  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F28A58E) (tstamp ca5b7d77-fe93-4a5d-ba36-b6da23f87293)
+  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F66FA03) (tstamp ca5b7d77-fe93-4a5d-ba36-b6da23f87293)
     (at 93 5.375)
     (path "/d69674cd-e254-4419-92bb-a1bd004b413c")
     (attr through_hole)
@@ -623,7 +623,7 @@
       (tstamp 193aa556-11a9-49c0-849d-dcf2296b6392)
     )
     (fp_circle (center 0 0) (end 2.85 0) (layer "Dwgs.User") (width 0.12) (tstamp accb704c-f6c6-4128-9549-45e44b8c00bc))
-    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu "B.Mask")
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 49090275-b016-439d-8f36-db5263b19295))
   )
 
@@ -699,7 +699,7 @@
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp e0e8f43b-3516-4282-a33a-2887f3c7f736))
   )
 
-  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F28A58E) (tstamp e2806ee9-b021-4cd7-9e4c-0392fe76034e)
+  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F66FA18) (tstamp e2806ee9-b021-4cd7-9e4c-0392fe76034e)
     (at 303 5.375)
     (path "/61906d2c-5608-49de-a078-c5528b0e80d5")
     (attr through_hole)
@@ -716,11 +716,11 @@
       (tstamp 193aa556-11a9-49c0-849d-dcf2296b6392)
     )
     (fp_circle (center 0 0) (end 2.85 0) (layer "Dwgs.User") (width 0.12) (tstamp accb704c-f6c6-4128-9549-45e44b8c00bc))
-    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu "B.Mask")
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 9813c3d2-c12c-477c-931b-654a8451e95e))
   )
 
-  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F28A58E) (tstamp e646d24a-d843-49fa-8b98-4587bb77cb51)
+  (module "acheronHardware:PEM-KF2-M3-ET_(solder-in)" (layer "F.Cu") (tedit 5F66FA2A) (tstamp e646d24a-d843-49fa-8b98-4587bb77cb51)
     (at 163 157.2)
     (path "/a0c84db5-5c88-418a-a8ec-3c111b8f99e5")
     (attr through_hole)
@@ -737,7 +737,7 @@
       (tstamp 193aa556-11a9-49c0-849d-dcf2296b6392)
     )
     (fp_circle (center 0 0) (end 2.85 0) (layer "Dwgs.User") (width 0.12) (tstamp accb704c-f6c6-4128-9549-45e44b8c00bc))
-    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0) (size 10 6.5) (drill 4.6) (layers *.Cu "B.Mask")
       (net 1 "Mounting-hole") (pinfunction "1") (tstamp 6059ca51-0a90-4473-8626-aed40bea4d77))
   )
 
