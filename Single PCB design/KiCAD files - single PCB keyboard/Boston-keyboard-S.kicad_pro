@@ -361,7 +361,7 @@
       "idf": "",
       "netlist": "Boston-keyboard.net",
       "specctra_dsn": "",
-      "step": "Boston-SL.step",
+      "step": "Boston-SL-split-space.step",
       "vmrl": ""
     },
     "page_layout_descr_file": ""
