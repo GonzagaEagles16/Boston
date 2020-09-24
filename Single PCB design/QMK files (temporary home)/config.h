@@ -55,7 +55,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Define RGBLED */
 #define RGB_DI_PIN A5
 #define RGBLED_NUM 1      
-//#define RGB_LAYERS
+#define RGBLIGHT_ANIMATIONS
+#define RGBLIGHT_LAYERS
 
 /* Define encoder */
 #define ENCODERS_PAD_A { C13 }
