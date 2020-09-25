@@ -1,9 +1,10 @@
 # [NotYetAcheron] 121-S-THT-MX-TH-WI (Codename "Boston")
 
 ![1st prototype](https://github.com/bluepylons/Boston/raw/master/graphics/prototype_1_pic.JPG)
+![3D-printed/FR4 version](https://github.com/bluepylons/Boston/raw/master/graphics/3D-printed-prototype.JPG)
 
 ## Introduction 
-Boston is a compact 120% with a full-complement of 18 programmable keys, in a footprint 2u narrower than a full-size, and only about 1.25u wider than a 96%. 
+Boston is a compact 120% with a full-complement of 18 programmable keys, in a footprint 2u narrower than a full-size, and only about 1.5u wider than a 96%. 
 
 The immediate inspiration for Boston was the DriftMechanics [Austin](https://github.com/Gondolindrim/Austin), as well as the [7-row Thinkpad keyboards](http://www.notebookreview.com/picture/?f=60846) found on Thinkpads of the T420 generation and older. The general idea was to make a narrower full-size that retained both the 2u numpad "0" and traditional 2x3 Ins/Del/Home/End/PgUp/PgDn nav block, by expanding vertically. 
 
@@ -15,11 +16,13 @@ The name is a pun off Austin, since the layout is derived from it. I also grew u
 
 This is a work in progress. 
 
-The current version (in the "Single PCB design") is currently being prototyped. A list of errata will be produced once it has been fully tested. 
+The current version (in the "Boston - Current design" folder) is currently being prototyped. A list of errata will be produced once it has been fully tested. I intend to run a GB for this keyboard in the near future. 
 
-An older version (V0.3) used a two-PCB design with the controller on a daughterboard. That version has been built and is verified working. The matrix between V0.3 and newer versions are different. The older version also does not support split backspace.
+STL files for the 3D-printed case are available under the "3D-printed case - parts" folder. Full STEPs, Fusion, and a bill-of-materials will be released after the group buy runs.
 
-Case files will be released after one or more rounds of group buys have been run. This is unfortunately necessary to prevent third party group buys from running parallel to the main group buy for the time being. 
+The aluminum version is still being prototyped. Case files for those will likely be released after a couple group buy runs.
+
+An older version (V0.3) used a two-PCB design with the controller on a daughterboard, and a different matrix. Only two of these were produced. 
 
 The Interest Check thread is [here](https://geekhack.org/index.php?topic=106501.0) on Geekhack.
 
@@ -31,20 +34,20 @@ Click [this link](http://www.keyboard-layout-editor.com/#/gists/75e63e00e1acc52c
 
 Note - The 1u Numpad + and - switches, in substitution of the normal 2u + key, are west-facing, which may not be compatible with some keycaps.
 
-## Renders
+## PCB Renders 
 
 Renders done with [tracespace.io](https://tracespace.io/).
-![Keyboard top](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-top-V0.4.png)
-![Keyboard bottom](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-bottom-V0.4.png)
+![Keyboard top](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-top-V0.5.1.png)
+![Keyboard bottom](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-bottom-V0.5.1.png)
 
-## Planned Features:
+## Features:
 * 121-key in standard ANSI configuration
 * Alps EC11E rotary encoder above the Escape key 
 * Full-size numpad with 2u "0" key
 * Traditional 2x3 Ins/Del/Home/End/PgUp/PgDn navblock 
 * Uses keys found in GMK base kits (except for programmable keys)
 * RGBLED layer-status indicator light
-* ISO enter key support 
+* ISO enter key, split backspace, split numpad 0, and WKL bottom row support 
 * Optional 3mm through-hole LED backlight (dimmable as a single block only)
 * USB-C
 * STM32F072 controller running QMK. Circuitry is derived from the Austin. 
@@ -62,10 +65,6 @@ The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was 
 The KiCAD files are done using the nightly builds, as the Acheron Library is currently on the nightlies and aren't compatible with the 5.1.6 stable build. This will be updated over to the next stable KiCAD release whenever that comes out (which will  be the release is after 5.1.6) This project uses the [Acheron Library](https://github.com/AcheronProject/AcheronLibrary).
 
  The KiCAD files use project-specific paths to the Acheron Library. To set this up - in KiCAD, open Preferences > Configure Paths. Add a new entry, with ACHERONLIB for the name, and for the path, the directory where the AcheronLibrary folder resides in.
-
-## Errata (V0.4)
-
-TBD
 
 ## Acknowledgements
 
