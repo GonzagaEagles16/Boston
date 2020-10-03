@@ -61,7 +61,7 @@ The PCB files and hardware designs are released under the [Acheron Open-Hardware
 
 All files in "QMK files (temporary home)", like all other QMK firmware, are released under the [GNU Public License, Version 2](https://github.com/qmk/qmk_firmware/blob/master/LICENSE). 
 
-The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was created using OpenStreetMap data, © OpenStreetMap contributors, under OpenStreetMap's [conditions](https://www.openstreetmap.org/copyright). 
+The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was created using OpenStreetMap data, © OpenStreetMap contributors, under OpenStreetMap's [conditions](https://www.openstreetmap.org/copyright). Those files are specifically released under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/)
 
 ## Libraries
 
