@@ -73,7 +73,7 @@ The KiCAD files are done using the nightly builds, as the Acheron Library is cur
 
 * V0.3 and earlier - these used a two-PCB design, with microcontroller, USB port, and associated components on the daughterboard, and a completely through-hole main PCB. Not compatible with the published case designs. The firmware is largely similar, though the matrix is different.
 * V0.4 - August 11, 2020 - a complete redesign. Placed everything on a single PCB, with a centered USB-C port. The F-key clusters are moved closer to the main alpha keys. Switched to SMD diodes. Designed for both the 3D-printed/FR4 version, and the metal version. Working. 
-* V0.5 - September - added split space and WKL support, a grounding pad for the metal case, changed silkscreen somewhat, and changed the microcontroller footprint to be able to take both LQFP-48 and UFQFPN48 due to shortages of LQFP48 STM32F072's. This had several critical routing mistakes, and needs some traces cut and wires soldered in to work. 
+* V0.5 - September 16, 2020 - added split space and WKL support, a grounding pad for the metal case, changed silkscreen somewhat, and changed the microcontroller footprint to be able to take both LQFP-48 and UFQFPN48 due to shortages of LQFP48 STM32F072's. This had several critical routing mistakes, and needs some traces cut and wires soldered in to work. 
 * V0.5.1 - September 23, 2020 - this fixed some critical routing errors in V0.5, and slightly improved the silkscreen. The grounding pad is now connected to ground via a ferrite bead. Currently being tested. 
 
 ## Acknowledgements
