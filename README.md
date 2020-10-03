@@ -8,15 +8,13 @@ Boston is a compact 120% with a full-complement of 18 programmable keys, in a fo
 
 The immediate inspiration for Boston was the DriftMechanics [Austin](https://github.com/Gondolindrim/Austin), as well as the [7-row Thinkpad keyboards](http://www.notebookreview.com/picture/?f=60846) found on Thinkpads of the T420 generation and older. The general idea was to make a narrower full-size that retained both the 2u numpad "0" and traditional 2x3 Ins/Del/Home/End/PgUp/PgDn nav block, by expanding vertically. 
 
-The Geekhack build thread on this keyboard [here](https://geekhack.org/index.php?topic=106239.0).
-
 The name is a pun off Austin, since the layout is derived from it. I also grew up in Boston. 
 
 ## Status
 
 This is a work in progress. 
 
-The current version (in the "Boston - Current design" folder) is currently being prototyped. A list of errata will be produced once it has been fully tested. I intend to run a GB for this keyboard in the near future. 
+The current version (V0.5.1, in the "Boston - Current design" folder) is currently being prototyped. A list of errata will be produced once it has been fully tested. I intend to run a GB for this keyboard in the near future. An older version of the PCB (V0.4) is fully working. 
 
 STL files for the 3D-printed case are available under the "3D-printed case - parts" folder. Full STEPs, Fusion, and a bill-of-materials will be released after the group buy runs.
 
