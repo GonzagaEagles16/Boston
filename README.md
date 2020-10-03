@@ -1,7 +1,7 @@
 ![PCB version](https://img.shields.io/badge/PCB%20Version-pre%20Alpha-green.svg?style=flat) ![Prototype version](https://img.shields.io/badge/Prototype%20Version-pre%20Alpha-green.svg?style=flat) ![Firmware](https://img.shields.io/badge/Firmware-Passing-green.svg?style=flat)
 
 
-# [NotYetAcheron] 121-S-THT-MX-TH-WI (Codename "Boston")
+# [NotYetAcheron] 121-S-SM-MX-STM32-TH-WI (Codename "Boston")
 
 ![1st prototype](https://github.com/bluepylons/Boston/raw/master/graphics/prototype_1_pic.JPG)
 ![3D-printed/FR4 version](https://github.com/bluepylons/Boston/raw/master/graphics/3D-printed-prototype.JPG)
