@@ -13,35 +13,11 @@ The immediate inspiration for Boston was the DriftMechanics [Austin](https://git
 
 The name is a pun off Austin, since the layout is derived from it. I also grew up in Boston. 
 
-## Status
-
-The Interest Check thread is [here](https://geekhack.org/index.php?topic=106501.0) on Geekhack. Updates will occasionally be posted there.
-
-This is a work in progress. 
-
-The current version (V0.5.1, in the "Boston - Current design" folder) is currently being prototyped. A list of errata will be produced once it has been fully tested. I intend to run a GB for this keyboard in the near future. An older version of the PCB (V0.4) is fully working. 
-
-STL files for the 3D-printed case are available under the "3D-printed case - parts" folder. Full STEPs, Fusion, and a bill-of-materials will be released after the group buy runs.
-
-The aluminum version is still being prototyped. Case files for those will likely be released after a couple group buy runs.
-
-An older version (V0.3) used a two-PCB design with the controller on a daughterboard, and a different matrix. Only two of these were produced. 
-
-There is a working version of QMK, though RGB layer status indication has not yet been implemented (though there is basic RGB functionality imlemented). 
-
 ## Supported layouts
 
 ![Boston layouts](https://github.com/bluepylons/Boston/raw/master/graphics/bostonKLE.png)
 
 Click [this link](http://www.keyboard-layout-editor.com/#/gists/75e63e00e1acc52cdb8eeda7f8ac4ba6) for the KLE file for Boston.
-
-Note - The 1u Numpad + and - switches, in substitution of the normal 2u + key, are west-facing, which may not be compatible with some keycaps.
-
-## PCB Renders 
-
-Renders done with [tracespace.io](https://tracespace.io/).
-![Keyboard top](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-top-V0.5.1.png)
-![Keyboard bottom](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-bottom-V0.5.1.png)
 
 ## Features:
 * 121-key in standard ANSI configuration
@@ -54,6 +30,31 @@ Renders done with [tracespace.io](https://tracespace.io/).
 * Optional 3mm through-hole LED backlight (dimmable as a single block only)
 * USB-C
 * STM32F072 controller running QMK. Circuitry is derived from the Austin. 
+
+## Status
+
+This is a work in progress.  The Geekhack Interest Check thread is [here](https://geekhack.org/index.php?topic=106501.0) on Geekhack. Updates will occasionally be posted there.
+
+The current version (V0.5.1, in the "Boston - Current design" folder) is currently being prototyped. A list of errata will be produced once it has been fully tested. 
+
+STL files for the 3D-printed case are available under the "3D-printed case - parts" folder. Full STEPs, Fusion, and a bill-of-materials will be released after the group buy runs.
+
+The aluminum version is still being prototyped. Case files for those will likely be released after a couple group buy runs.
+
+There is a working version of QMK, though RGB layer status indication has not yet been implemented (though there is basic RGB functionality imlemented). 
+
+## PCB Renders 
+
+Renders done with [tracespace.io](https://tracespace.io/).
+![Keyboard top](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-top-V0.5.1.png)
+![Keyboard bottom](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-bottom-V0.5.1.png)
+
+## PCB Changelog
+
+* V0.3 and earlier - these used a two-PCB design, with microcontroller, USB port, and associated components on the daughterboard, and a completely through-hole main PCB. Not compatible with the published case designs. The firmware is largely similar, though the matrix is different.
+* V0.4 - August 11, 2020 - a complete redesign. Placed everything on a single PCB, with a centered USB-C port. The F-key clusters are moved closer to the main alpha keys. Switched to SMD diodes. Designed for both the 3D-printed/FR4 version, and the metal version. Working. 
+* V0.5 - September 16, 2020 - added split space and WKL support, a grounding pad for the metal case, changed silkscreen somewhat, and changed the microcontroller footprint to be able to take both LQFP-48 and UFQFPN48 due to shortages of LQFP48 STM32F072's. This had several critical routing mistakes, and needs some traces cut and wires soldered in to work. 
+* V0.5.1 - September 23, 2020 - this fixed some critical routing errors in V0.5, and slightly improved the silkscreen. The grounding pad is now connected to ground via a ferrite bead. Currently being tested. 
 
 ## Copyright Notice
 
@@ -68,13 +69,6 @@ The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was 
 The KiCAD files are done using the nightly builds, as the Acheron Library is currently on the nightlies and aren't compatible with the 5.1.6 stable build. This will be updated over to the next stable KiCAD release whenever that comes out (which will  be the release is after 5.1.6) This project uses the [Acheron Library](https://github.com/AcheronProject/AcheronLibrary).
 
  The KiCAD files use project-specific paths to the Acheron Library. To set this up - in KiCAD, open Preferences > Configure Paths. Add a new entry, with ACHERONLIB for the name, and for the path, the directory where the AcheronLibrary folder resides in.
-
-## PCB Changelog
-
-* V0.3 and earlier - these used a two-PCB design, with microcontroller, USB port, and associated components on the daughterboard, and a completely through-hole main PCB. Not compatible with the published case designs. The firmware is largely similar, though the matrix is different.
-* V0.4 - August 11, 2020 - a complete redesign. Placed everything on a single PCB, with a centered USB-C port. The F-key clusters are moved closer to the main alpha keys. Switched to SMD diodes. Designed for both the 3D-printed/FR4 version, and the metal version. Working. 
-* V0.5 - September 16, 2020 - added split space and WKL support, a grounding pad for the metal case, changed silkscreen somewhat, and changed the microcontroller footprint to be able to take both LQFP-48 and UFQFPN48 due to shortages of LQFP48 STM32F072's. This had several critical routing mistakes, and needs some traces cut and wires soldered in to work. 
-* V0.5.1 - September 23, 2020 - this fixed some critical routing errors in V0.5, and slightly improved the silkscreen. The grounding pad is now connected to ground via a ferrite bead. Currently being tested. 
 
 ## Acknowledgements
 
