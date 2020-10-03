@@ -62,11 +62,11 @@ The PCB files and hardware designs are released under the [Acheron Open-Hardware
 
 All files in "QMK files (temporary home)", like all other QMK firmware, are released under the [GNU Public License, Version 2](https://github.com/qmk/qmk_firmware/blob/master/LICENSE). 
 
-The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was created using OpenStreetMap data, © OpenStreetMap contributors, under OpenStreetMap's [conditions](https://www.openstreetmap.org/copyright). Those files are specifically released under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/)
+The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was created using OpenStreetMap data, © OpenStreetMap contributors, under OpenStreetMap's [conditions](https://www.openstreetmap.org/copyright). Those bottom FR4 plate containing the artwork is specifically released under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/) 
 
 ## Libraries
 
-The KiCAD files are done using the nightly builds, as the Acheron Library is currently on the nightlies and aren't compatible with the 5.1.6 stable build. This will be updated over to the next stable KiCAD release whenever that comes out (which will  be the release is after 5.1.6) This project uses the [Acheron Library](https://github.com/AcheronProject/AcheronLibrary).
+The KiCAD files are done using the 5.99nightly builds, as the Acheron Library is currently on the nightlies and aren't compatible with the 5.1.6 stable build. This will be updated over to the next stable KiCAD release whenever that comes out (which will  be the release is after 5.1.6) This project uses the [Acheron Library](https://github.com/AcheronProject/AcheronLibrary).
 
  The KiCAD files use project-specific paths to the Acheron Library. To set this up - in KiCAD, open Preferences > Configure Paths. Add a new entry, with ACHERONLIB for the name, and for the path, the directory where the AcheronLibrary folder resides in.
 
