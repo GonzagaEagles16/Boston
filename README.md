@@ -7,7 +7,7 @@
 ![3D-printed/FR4 version](https://github.com/bluepylons/Boston/raw/master/graphics/3D-printed-prototype.JPG)
 
 ## Introduction 
-Boston is a compact 120% with a full-complement of 18 programmable keys, in a footprint 2u narrower than a full-size, and only about 1.5u wider than a 96%. 
+Boston is a compact 120% with a full-complement of 18 programmable keys, in a footprint 2u narrower than a full-size, and only about 1.5u wider than a 96%. Both a 3D-printed/FR4 case and a CNC aluminum case will be available.
 
 The immediate inspiration for Boston was the DriftMechanics [Austin](https://github.com/Gondolindrim/Austin), as well as the [7-row Thinkpad keyboards](http://www.notebookreview.com/picture/?f=60846) found on Thinkpads of the T420 generation and older. The general idea was to make a narrower full-size that retained both the 2u numpad "0" and traditional 2x3 Ins/Del/Home/End/PgUp/PgDn nav block, by expanding vertically. 
 
@@ -55,6 +55,7 @@ Renders done with [tracespace.io](https://tracespace.io/).
 * V0.4 - August 11, 2020 - a complete redesign. Placed everything on a single PCB, with a centered USB-C port. The F-key clusters are moved closer to the main alpha keys. Switched to SMD diodes. Designed for both a 3D-printed/FR4 case, and a CNC metal case. Working. 
 * V0.5 - September 16, 2020 - added split space and WKL support, a grounding pad for the metal case, changed silkscreen somewhat, and changed the microcontroller footprint to be able to take both LQFP-48 and UFQFPN48 due to shortages of LQFP48 STM32F072's. This had several critical routing errors with the layout shorting GND to +3.3V, and needs some traces cut and wires soldered in to work. 
 * V0.5.1 - September 23, 2020 - this fixed some critical routing errors in V0.5, and slightly improved the silkscreen. The grounding pad is now connected to ground via a ferrite bead. Currently being tested. 
+* V0.5.2 - Future changes after V0.5.1. Currently, I removed a big loop in the ground plane (which did not seem to affect functionality), and made some minor changes to the silkscreen.
 
 ## Copyright Notice
 
