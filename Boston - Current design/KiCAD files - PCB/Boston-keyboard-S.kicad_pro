@@ -55,9 +55,9 @@
           "width": 0.3
         },
         {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
+          "gap": 0.3,
+          "via_gap": 0.3,
+          "width": 0.3
         }
       ],
       "drc_exclusions": [],
@@ -139,6 +139,10 @@
         {
           "diameter": 1.0,
           "drill": 0.8
+        },
+        {
+          "diameter": 3.0,
+          "drill": 2.0
         }
       ],
       "zones_allow_external_fillets": false,
@@ -392,7 +396,7 @@
   },
   "sheets": [
     [
-      "35c481bc-3c9f-4d42-a406-4a5e0c4a718d",
+      "5c544a29-afb3-467a-9fa1-d9781a340480",
       ""
     ]
   ],

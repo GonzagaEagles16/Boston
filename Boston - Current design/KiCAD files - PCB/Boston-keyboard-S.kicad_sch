@@ -3542,9 +3542,9 @@
   (junction (at 815.34 153.67) (diameter 0.3048) (color 0 0 0 0))
   (junction (at 825.5 153.67) (diameter 0.3048) (color 0 0 0 0))
 
-  (no_connect (at 536.575 505.46))
-  (no_connect (at 739.14 88.265))
   (no_connect (at 739.14 85.725))
+  (no_connect (at 739.14 88.265))
+  (no_connect (at 536.575 505.46))
   (no_connect (at 536.575 502.92))
 
   (wire (pts (xy 19.05 326.39) (xy 27.94 326.39))
