@@ -35,13 +35,15 @@ Click [this link](http://www.keyboard-layout-editor.com/#/gists/75e63e00e1acc52c
 
 This is a work in progress.  The Geekhack Interest Check thread is [here](https://geekhack.org/index.php?topic=106501.0) on Geekhack. Updates will occasionally be posted there.
 
-The current version (V0.5.1, in the "Boston - Current design" folder) is currently being prototyped. A list of errata will be produced once it has been fully tested. 
+The current version (V0.5.2, in the "Boston - Current design" folder) is currently being prototyped. 
 
-STL files for the 3D-printed case are available under the "3D-printed case - parts" folder. Full STEPs, Fusion, and a bill-of-materials will be released after the group buy runs.
+STL files for the 3D-printed/FR4 case are available under the "3D-printed case - parts" folder. Full STEPs, Fusion, and a bill-of-materials will be released after the group buy runs.
 
 The aluminum version is still being prototyped. Case files for those will likely be released after a couple group buy runs.
 
-There is a working version of QMK, though RGB layer status indication has not yet been implemented (though there is basic RGB functionality imlemented). 
+There is a working version of QMK, though RGB layer status indication has not yet been implemented (though there is basic RGB functionality imlemented).
+
+I may implement VIA in the future as the microcontroller supports it, but it's not currently in the cards. 
 
 ## PCB Renders 
 
@@ -55,7 +57,7 @@ Renders done with [tracespace.io](https://tracespace.io/).
 * V0.4 - August 11, 2020 - a complete redesign. Placed everything on a single PCB, with a centered USB-C port. The F-key clusters are moved closer to the main alpha keys. Switched to SMD diodes. Designed for both a 3D-printed/FR4 case, and a CNC metal case. Working. 
 * V0.5 - September 16, 2020 - added split space and WKL support, a grounding pad for the metal case, changed silkscreen somewhat, and changed the microcontroller footprint to be able to take both LQFP-48 and UFQFPN48 due to shortages of LQFP48 STM32F072's. This had several routing errors and requires some fixes for all features to work.
 * V0.5.1 - September 23, 2020 - this fixed some routing errors in V0.5, and slightly improved the silkscreen. The grounding pad is now connected to ground via a ferrite bead. Currently being tested. 
-* V0.5.2 - Future changes after V0.5.1. Currently, I removed a big loop in the ground plane (which did not seem to affect functionality), and made some minor changes to the silkscreen.
+* V0.5.2 - Future changes after V0.5.1. Currently, I removed a big loop in the ground plane (which did not seem to affect functionality), and made some minor changes to the silkscreen.  I also increased thermal clearances around the RGBLED to make it easier to solder.
 
 ## Copyright Notice
 
