@@ -13,11 +13,7 @@ bool led_update_kb(led_t led_state) {
         writePin(A0, led_state.num_lock);
         writePin(A1, led_state.caps_lock);
         writePin(A2, led_state.scroll_lock);
-
-}
-
+    }
 
     return true;
 }
-
-
