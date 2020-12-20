@@ -57,7 +57,7 @@ Renders done with [tracespace.io](https://tracespace.io/).
 * V0.4 - August 11, 2020 - a complete redesign. Placed everything on a single PCB, with a centered USB-C port. The F-key clusters are moved closer to the main alpha keys. Switched to SMD diodes. Designed for both a 3D-printed/FR4 case, and a CNC metal case. Working. 
 * V0.5 - September 16, 2020 - added split space and WKL support, a grounding pad for the metal case, changed silkscreen somewhat, and changed the microcontroller footprint to be able to take both LQFP-48 and UFQFPN48 due to shortages of LQFP48 STM32F072's. This had several routing errors and requires some fixes for all features to work.
 * V0.5.1 - September 23, 2020 - this fixed some routing errors in V0.5, and slightly improved the silkscreen. The grounding pad is now connected to ground via a ferrite bead. Tested and working.
-* V0.5.2 - Removed a big loop in the ground plane (which did not seem to affect functionality), and made some minor changes to the silkscreen. Increased thermal clearances around the RGBLED to make it easier to solder. Minor silkscreen fixes. Tested and working.
+* V0.5.2 - October 6, 2020 - Removed a big loop in the ground plane (which did not seem to affect functionality), and made some minor changes to the silkscreen. Increased thermal clearances around the RGBLED to make it easier to solder. Minor silkscreen fixes. Tested and working.
 
 ## Copyright Notice
 
