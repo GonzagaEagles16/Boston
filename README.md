@@ -63,13 +63,14 @@ Renders done with [tracespace.io](https://tracespace.io/).
 
 The PCB files and hardware designs are released under the [Acheron Open-Hardware License V1.2](http://acheronproject.com/license/license.html). 
 
-All files in "QMK files (temporary home)", as required by QMK and ChibiOS's license, are released under the [GNU Public License, Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html). 
+All files in "QMK files (temporary home)" and "QMK files - Boston V0.3", as required by QMK and ChibiOS's license, are released under the [GNU Public License, Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html). 
 
 The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was created using OpenStreetMap data, © OpenStreetMap contributors, under OpenStreetMap's [conditions](https://www.openstreetmap.org/copyright). The resulting KiCAD footprint and PCB files for the bottom FR4 panel containing the artwork is specifically released under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/) 
 
 ## Libraries
+This project uses the [Acheron Library](https://github.com/AcheronProject/AcheronLibrary).
 
-The KiCAD files are done using the 5.99nightly builds, as the Acheron Library is currently on the nightlies and aren't compatible with the 5.1.6 stable build. This will be updated over to KiCAD V6 whenever that is released This project uses the [Acheron Library](https://github.com/AcheronProject/AcheronLibrary).
+The KiCAD files are done using the 5.99nightly builds, as the Acheron Library is currently on the nightlies and aren't compatible with the 5.1.6 stable build. This will be updated over to KiCAD V6 whenever that is released 
 
  The KiCAD files use project-specific paths to the Acheron Library. To set this up - in KiCAD, open Preferences > Configure Paths. Add a new entry, with ACHERONLIB for the name, and for the path, the directory where the AcheronLibrary folder resides in.
 
