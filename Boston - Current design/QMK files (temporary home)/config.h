@@ -22,7 +22,6 @@
 #define DEVICE_VER 0x0001
 #define MANUFACTURER Pylon
 #define PRODUCT Boston
-#define DESCRIPTION 
 /* key matrix size */
 #define MATRIX_ROWS 7
 #define MATRIX_COLS 19
@@ -58,6 +57,9 @@
 #define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_LAYERS
 
+//The 3D-printed version of Boston uses APA106 LEDs, which are reversed 
+#define WS2812_BYTE_ORDER WS2812_BYTE_ORDER_RGB
+
 /* Define encoder */
 #define ENCODERS_PAD_A \
     { C13 }
@@ -65,6 +67,12 @@
     { F1 }
 #define ENCODER_RESOLUTION 2
 #define TAP_CODE_DELAY 15
+
+/* Lock LEDs */
+#define LED_NUM_LOCK_PIN A0
+#define LED_CAPS_LOCK_PIN A1
+#define LED_SCROLL_LOCK_PIN A2
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
