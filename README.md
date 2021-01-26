@@ -37,13 +37,13 @@ This is a work in progress.  The Geekhack Interest Check thread is [here](https:
 
 The current version (V0.5.2, in the "Boston - Current design" folder) has been prototyped and is working. 
 
-STL files for the 3D-printed/FR4 case are available under the "3D-printed case - parts" folder. Full STEPs, Fusion, and a bill-of-materials will be released after the group buy runs.
+STL and STEP files for the 3D-printed/FR4 case are available under the "3D-printed case - parts" folder. Unfortunately, since I switched from Fusion to Atom3D in the middle of this project, I don't no longer have an up-to-date .f3d Fusion file that I can share, and I'm also essentially working off the STEP file. 
 
 The aluminum version is still being prototyped. Unfortuantely, due to my likely arrangements with my vendor for this version, the case files for the aluminum version are unlikely to be open-sourced in the near future.
 
-There is a working version of QMK, though RGB layer status indication has not yet been implemented (though there is basic RGB functionality imlemented).
+There is a working version of QMK in the "QMK files - temporary home" folder. There is [currently a pull request](https://github.com/qmk/qmk_firmware/pull/11273) that is awaiting approval my the QMK Maintainers. 
 
-I may implement VIA in the future as the microcontroller supports it, but it's not currently in the cards. 
+I may implement VIA or VIAL in the future as the microcontroller supports it, but it's not currently in the cards. 
 
 ## PCB Renders 
 
@@ -66,6 +66,8 @@ The PCB files and hardware designs are released under the [Acheron Open-Hardware
 All files in "QMK files (temporary home)" and "QMK files - Boston V0.3", as required by QMK and ChibiOS's license, are released under the [GNU Public License, Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html). 
 
 The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was created using OpenStreetMap data, © OpenStreetMap contributors, under OpenStreetMap's [conditions](https://www.openstreetmap.org/copyright). The resulting KiCAD footprint and PCB files for the bottom FR4 panel containing the artwork is specifically released under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/) 
+
+The rubber feet, screws, nuts, and threaded inserts in the STEP file were remodelled from scratch, as most 3D models available online do not permit redistribution. 
 
 ## Libraries
 This project uses the [Acheron Library](https://github.com/AcheronProject/AcheronLibrary).
