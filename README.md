@@ -41,7 +41,7 @@ STL and STEP files for the 3D-printed/FR4 case are available under the "3D-print
 
 The aluminum version is still being prototyped. Unfortuantely, due to my likely arrangements with my vendor for this version, the case files for the aluminum version are unlikely to be open-sourced in the near future.
 
-There is a working version of QMK in the "QMK files - temporary home" folder. There is [currently a pull request](https://github.com/qmk/qmk_firmware/pull/11273) that is awaiting approval my the QMK Maintainers. 
+The QMK firmware files for this keyboard are [here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/boston)
 
 I may implement VIA or VIAL in the future as the microcontroller supports it, but it's not currently in the cards. 
 
@@ -56,14 +56,17 @@ Renders done with [tracespace.io](https://tracespace.io/).
 * V0.3 and earlier - these used a two-PCB design, with microcontroller, USB port, and associated components on the daughterboard, and a completely through-hole main PCB. Not compatible with the published case designs. The firmware is largely similar, though the matrix is different.
 * V0.4 - August 11, 2020 - a complete redesign. Placed everything on a single PCB, with a centered USB-C port. The F-key clusters are moved closer to the main alpha keys. Switched to SMD diodes. Designed for both a 3D-printed/FR4 case, and a CNC metal case. Working. 
 * V0.5 - September 16, 2020 - added split space and WKL support, a grounding pad for the metal case, changed silkscreen somewhat, and changed the microcontroller footprint to be able to take both LQFP-48 and UFQFPN48 due to shortages of LQFP48 STM32F072's. This had several routing errors and requires some fixes for all features to work.
-* V0.5.1 - September 23, 2020 - this fixed some routing errors in V0.5, and slightly improved the silkscreen graogucs. The grounding screw hole is now connected to ground via a ferrite bead. Tested and working.
-* V0.5.2 - October 6, 2020 - Removed a loop in the ground plane (which did not seem to affect functionality), and made some minor changes to the silkscreen. Increased thermal clearances around the RGBLED to make it easier to solder. Minor silkscreen fixes. Tested and working.
+* V0.5.1 - September 23, 2020 - this fixed the routing errors in V0.5, and slightly improved the silkscreen graogucs. The grounding screw hole is now connected to ground via a ferrite bead. Tested and working. Beta testers received fixed V0.5 and V0.5.1 boards.
+* V0.5.2 - October 6, 2020 - Removed a loop in the ground plane (which did not seem to affect functionality), and made some minor changes to the silkscreen. Increased thermal clearances around the RGBLED to make it easier to solder. Minor silkscreen fixes. Tested and working. People who bought Round 0 barebones kits received this PCB.
+* V0.5.3 - planned. I would like to improve the reset circuit to one of the later ones Gondolindrim describes [here](https://ohwr.org/cern_ohl_w_v2.txt). There are also some minor silkscreen issues I noticed on V0.5.2 that I would like to fix.
+
+Note - on the current FR4 plate, the stabilizer cutouts for the numpad Enter are backwards. This results in the stab wire hitting the plate, which doesn't affect functionality, but does result in a loud "clack" sound when the key is returning. This will be fixed in a future plate revision.
 
 ## Copyright Notice
 
-The PCB files and hardware designs are released under the [Acheron Open-Hardware License V1.2](http://acheronproject.com/license/license.html). 
+The PCB files and hardware designs are released under the [CERN OHL-W](https://ohwr.org/cern_ohl_w_v2.txt) license. 
 
-All files in "QMK files (temporary home)" and "QMK files - Boston V0.3", as required by QMK and ChibiOS's license, are released under the [GNU Public License, Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html). 
+All files in "QMK files - Boston V0.3", as required by QMK and ChibiOS's license, are released under the [GNU Public License, Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html). 
 
 The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was created using OpenStreetMap data, © OpenStreetMap contributors, under OpenStreetMap's [conditions](https://www.openstreetmap.org/copyright). The resulting KiCAD footprint and PCB files for the bottom FR4 panel containing the artwork is specifically released under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/) 
 
