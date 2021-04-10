@@ -3542,10 +3542,10 @@
   (junction (at 815.34 153.67) (diameter 0.3048) (color 0 0 0 0))
   (junction (at 825.5 153.67) (diameter 0.3048) (color 0 0 0 0))
 
-  (no_connect (at 739.14 85.725))
   (no_connect (at 739.14 88.265))
-  (no_connect (at 536.575 505.46))
+  (no_connect (at 739.14 85.725))
   (no_connect (at 536.575 502.92))
+  (no_connect (at 536.575 505.46))
 
   (wire (pts (xy 19.05 326.39) (xy 27.94 326.39))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -13478,7 +13478,7 @@
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005dd252e1")
     (property "Reference" "F701" (id 0) (at 712.47 142.875 90))
-    (property "Value" "Polyfuse" (id 1) (at 712.47 145.1864 90))
+    (property "Value" "1.5A Polyfuse" (id 1) (at 712.47 145.1864 90))
     (property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" (id 2) (at 707.39 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -19370,7 +19370,7 @@
       (reference "D703") (unit 1) (value "1N4148") (footprint "acheronComponents:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dd252e1"
-      (reference "F701") (unit 1) (value "Polyfuse") (footprint "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder")
+      (reference "F701") (unit 1) (value "1.5A Polyfuse") (footprint "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder")
     )
     (path "/d4e35a86-b7af-44fe-a5dc-9f8d7b05c959"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.5mm_Pad_Via")
