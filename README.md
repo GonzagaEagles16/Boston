@@ -66,8 +66,6 @@ Note - on the current FR4 plate, the stabilizer cutouts for the numpad Enter are
 
 The PCB files and hardware designs are released under the [CERN OHL-W](https://ohwr.org/cern_ohl_w_v2.txt) license. 
 
-All files in "QMK files - Boston V0.3", as required by QMK and ChibiOS's license, are released under the [GNU Public License, Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html). 
-
 The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was created using OpenStreetMap data, © OpenStreetMap contributors, under OpenStreetMap's [conditions](https://www.openstreetmap.org/copyright). The resulting KiCAD footprint and PCB files for the bottom FR4 panel containing the artwork is specifically released under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/) 
 
 The rubber feet, screws, nuts, and threaded inserts in the STEP file were remodelled from scratch, as most 3D models available online do not permit redistribution. 
