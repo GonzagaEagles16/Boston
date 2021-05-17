@@ -1,6 +1,5 @@
 ![PCB version](https://img.shields.io/badge/PCB%20Version-pre%20Alpha-green.svg?style=flat) ![Prototype version](https://img.shields.io/badge/Prototype%20Version-pre%20Alpha-green.svg?style=flat) ![Firmware](https://img.shields.io/badge/Firmware-Passing-green.svg?style=flat)
 
-
 # [NotYetAcheron] 121-S-SM-MX-STM32-TH-WI (Codename "Boston")
 
 ![1st prototype](https://github.com/bluepylons/Boston/raw/master/graphics/prototype_1_pic.JPG)
@@ -33,9 +32,9 @@ Click [this link](http://www.keyboard-layout-editor.com/#/gists/75e63e00e1acc52c
 
 ## Status
 
-This is a work in progress.  The Geekhack Interest Check thread is [here](https://geekhack.org/index.php?topic=106501.0) on Geekhack. Updates will occasionally be posted there.
+This is a work in progress. The Geekhack Interest Check thread is [here](https://geekhack.org/index.php?topic=106501.0) on Geekhack. No GB date has been announced yet, though I've done a presale of PCBs, plates, and hardware for people willing to 3D print their own case. Updates will occasionally be posted there.
 
-The current version (V0.5.2, in the "Boston - Current design" folder) has been prototyped and is working. 
+The current version (V0.5.2, in the "Boston - Current design" folder) has been prototyped and is working. Details about the PCB and plate files are available in the README files in thoes directories.
 
 STL and STEP files for the 3D-printed/FR4 case are available under the "3D-printed case - parts" folder. Unfortunately, since I switched from Fusion to Atom3D in the middle of this project, I don't no longer have an up-to-date .f3d Fusion file that I can share, and I'm also essentially working off the STEP file. 
 
@@ -50,17 +49,6 @@ I may implement VIA or VIAL in the future as the microcontroller supports it, bu
 Renders done with [tracespace.io](https://tracespace.io/).
 ![Keyboard top](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-top-V0.5.2.png)
 ![Keyboard bottom](https://github.com/bluepylons/Boston/raw/master/graphics/PCB-bottom-V0.5.2.png)
-
-## PCB Changelog
-
-* V0.3 and earlier - these used a two-PCB design, with microcontroller, USB port, and associated components on the daughterboard, and a completely through-hole main PCB. Not compatible with the published case designs. The firmware is largely similar, though the matrix is different.
-* V0.4 - August 11, 2020 - a complete redesign. Placed everything on a single PCB, with a centered USB-C port. The F-key clusters are moved closer to the main alpha keys. Switched to SMD diodes. Designed for both a 3D-printed/FR4 case, and a CNC metal case. Working. 
-* V0.5 - September 16, 2020 - added split space and WKL support, a grounding pad for the metal case, changed silkscreen somewhat, and changed the microcontroller footprint to be able to take both LQFP-48 and UFQFPN48 due to shortages of LQFP48 STM32F072's. This had several routing errors and requires some fixes for all features to work.
-* V0.5.1 - September 23, 2020 - this fixed the routing errors in V0.5, and slightly improved the silkscreen graogucs. The grounding screw hole is now connected to ground via a ferrite bead. Tested and working. Beta testers received fixed V0.5 and V0.5.1 boards.
-* V0.5.2 - October 6, 2020 - Removed a loop in the ground plane (which did not seem to affect functionality), and made some minor changes to the silkscreen. Increased thermal clearances around the RGBLED to make it easier to solder. Minor silkscreen fixes. Tested and working. People who bought Round 0 barebones kits received this PCB.
-* V0.5.3 - planned. I would like to improve the reset circuit to one of the later ones Gondolindrim describes [here](http://acheronproject.com/reset_article/principle.html). There are also some minor silkscreen issues I noticed on V0.5.2 that I would like to fix.
-
-Note - on the current FR4 plate, the stabilizer cutouts for the numpad Enter are backwards. This results in the stab wire hitting the plate, which doesn't affect functionality, but does result in a loud "clack" sound when the key is returning. This will be fixed in a future plate revision.
 
 ## Copyright Notice
 

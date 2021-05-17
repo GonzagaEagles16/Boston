@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "AcheronMountingHoles")(type "KiCad")(uri "${ACHERONLIB}/footprints/acheron_MountingHoles.pretty")(options "")(descr ""))
-)

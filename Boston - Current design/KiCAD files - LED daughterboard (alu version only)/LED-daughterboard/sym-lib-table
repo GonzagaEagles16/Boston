@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "AcheronLib")(type "KiCad")(uri "${ACHERONLIB}/symbols/acheronSymbols.lib")(options "")(descr ""))
-)
