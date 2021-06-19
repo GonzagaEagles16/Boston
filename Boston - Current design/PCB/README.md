@@ -5,13 +5,13 @@ These are the PCB files. All PCBs so far have been manufactured at JLCPCB, so I 
 V0.6 is a work in progress. The planned changes for this revision are:
 * Fix some minor silkscreen errors
 * Implement the improved STM32 reset circuit designed by Gondolindrim, described [here](http://acheronproject.com/reset_article/principle.html) under "Improving over ishtob’s circuit". The reset circuit on past versions can get the microcontroller into the DFU bootloader for flashing, but can't do a hardware reset, which increases the risk of bricking in case a software reset is not possible (due to an interrupted flashing process, corrupted firmware, or other). On the new version, a short press does a simple reset, while a long press allows the microcontroller to enter the DFU bootloder. 
-* Implement some EMI best practices, such as minimizing ground plane disruptions underneath the switching converter. I may run Boston through FCC testing at some point, so I would like to  
+* Implement some EMI best practices, such as minimizing ground plane disruptions underneath the switching converter. I may run Boston through FCC testing at some point, so I would like to minimze EMI emissions. 
 
 V0.6D is a planned version of V0.6 which is intended for use with a USB-C daughterboard, such as the [C3 Unified Daughterboard](https://github.com/ai03-2725/Unified-Daughterboard). This removes the USB-C connector and the ESD protection IC (as both of those will be on the daughterboard) and adds a JST connector to connect to the daughterboard.
 
 V0.6J is a planned version of V0.6 where all of the parts (except for the RGBLED and the reset switch, which are both through hole) can be assembled by JLCPCB. This removes backlight LED support and uses a linear regulator for the 5V->3.3V converesion rather than a switching one (the AP63203WU-7 and inductor are replaced with a TLV1117-33 LDO). Due to the reduced amount of available 3.3V current this means I am removing backlight support. Since this can be ordered fully-assembled from JLCPCB, this should make it easier for people to obtain PCBs.
 
-V0.5.2 was what shipped in the Round 0 barebones kit sale, and has been verified to work. JLCPCB at the time was not able to solder on connectors, and was out of stock of STM32F072 microcontrollers, so those parts are not included on the manufacturing files. JLCPCB also did not carry the fuse, the AP63203WU-7 buck controller, or the , so those parts are not included in the manufacturing files for JLCPCB SMT, and were soldered on by hand. 
+V0.5.2 was what shipped in the Round 0 barebones kit sale, and has been verified to work. JLCPCB at the time was not able to solder on connectors, and was out of stock of STM32F072 microcontrollers, so those parts are not included on the manufacturing files. JLCPCB also did not carry the fuse, the AP63203WU-7 buck controller, or the buck controller inductor, so those parts are not included in the manufacturing files for JLCPCB SMT, and were soldered on by hand. 
 
 Older PCB files are not included but can be accessed through the Git history.
 
