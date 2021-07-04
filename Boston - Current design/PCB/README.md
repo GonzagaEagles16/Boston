@@ -2,6 +2,8 @@
 
 These are the PCB files. All PCBs so far have been manufactured at JLCPCB, so I include the JLCPCB SMT BOM and placement files.
 
+All PCB files have been done on the KiCAD 5.99 nightly version, using the Acheron Library.
+
 V0.6 is a work in progress. The planned changes for this revision are:
 * Fix some minor silkscreen errors
 * Implement the improved STM32 reset circuit designed by Gondolindrim, described [here](http://acheronproject.com/reset_article/principle.html) under "Improving over ishtob’s circuit". The reset circuit on past versions can get the microcontroller into the DFU bootloader for flashing, but can't do a hardware reset, which increases the risk of bricking in case a software reset is not possible (due to an interrupted flashing process, corrupted firmware, or other issue). On the new version, a short press does a simple reset, while a long press allows the microcontroller to enter the DFU bootloader. 
