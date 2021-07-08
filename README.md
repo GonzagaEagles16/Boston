@@ -29,20 +29,19 @@ Click [this link](http://www.keyboard-layout-editor.com/#/gists/75e63e00e1acc52c
 * Optional through-hole LED backlight (dimmable as a single block only)
 * USB-C
 * STM32F072 controller running QMK. Circuitry is derived from the Austin. 
+* QMK and Vial support 
 
 ## Status
 
 This is a work in progress. The Geekhack Interest Check thread is [here](https://geekhack.org/index.php?topic=106501.0) on Geekhack. No GB date has been announced yet, though I've done a presale of PCBs, plates, and hardware for people willing to 3D print their own case. Updates will occasionally be posted there.
 
-The current version (V0.5.2, in the "Boston - Current design" folder) has been prototyped and is working. Details about the PCB and plate files are available in the README files in thoes directories.
+The current version (V0.5.2, in the "Boston - Current design" folder) has been prototyped and is working. Details about the PCB and plate files are available in the README files in thoes directories. I am currently working on a V0.6 for the PCB.
 
 STL and STEP files for the 3D-printed/FR4 case are available under the "3D-printed case - parts" folder. Unfortunately, since I switched from Fusion to Atom3D in the middle of this project, I don't no longer have an up-to-date .f3d Fusion file that I can share, and I'm also essentially working off the STEP file. 
 
 The aluminum version is still being prototyped. Unfortuantely, due to my likely arrangements with my vendor for this version, the case files for the aluminum version are unlikely to be open-sourced in the near future.
 
 The QMK firmware files for this keyboard are [here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/boston)
-
-I may implement VIA or VIAL in the future as the microcontroller supports it, but it's not currently in the cards. 
 
 ## PCB Renders 
 
@@ -52,7 +51,7 @@ Renders done with [tracespace.io](https://tracespace.io/).
 
 ## Copyright Notice
 
-The PCB files and hardware designs are released under the [CERN OHL-W](https://ohwr.org/cern_ohl_w_v2.txt) license. 
+The PCB files and hardware designs are released under the [CERN OHL-W](https://ohwr.org/cern_ohl_w_v2.txt) license. The firmware is released under [GNU GPL V3](https://www.gnu.org/licenses/gpl-3.0.en.html) 
 
 The map artwork in Single PCB design/3D printed case- FR4 part files/Bottom was created using OpenStreetMap data, © OpenStreetMap contributors, under OpenStreetMap's [conditions](https://www.openstreetmap.org/copyright). The resulting KiCAD footprint and PCB files for the bottom FR4 panel containing the artwork is specifically released under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/) 
 
