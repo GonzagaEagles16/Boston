@@ -57,7 +57,7 @@
 #define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_LAYERS
 
-//The 3D-printed version of Boston uses APA106 LEDs, which are reversed 
+/*The 3D-printed version of Boston uses APA106 LEDs, which are reversed */
 #define WS2812_BYTE_ORDER WS2812_BYTE_ORDER_RGB
 
 /* Define encoder */
@@ -73,7 +73,7 @@
 #define LED_CAPS_LOCK_PIN A1
 #define LED_SCROLL_LOCK_PIN A2
 
-//Vial stuff
+/*Vial stuff*/
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 3
 
