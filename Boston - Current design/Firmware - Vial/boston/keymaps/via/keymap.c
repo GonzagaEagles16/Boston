@@ -57,17 +57,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /*Remember to also change the color in keyboard_post_init_kb in boston.c to make the startup color match the layer 0 color */
 
-/*
 const rgblight_segment_t PROGMEM layer_0[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 4, 0, 0, 128}  //White
+    {0, 4, 0, 0, 128}  /*White*/
 );
 
 const rgblight_segment_t PROGMEM layer_1[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 4, 43, 255, 128} //Yellow
+    {0, 4, 43, 255, 128} /*Yellow*/
 );
 
 const rgblight_segment_t PROGMEM layer_2[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 4, 135, 255, 128} //Teal
+    {0, 4, 135, 255, 128} /*Teal*/
 );
 
 const rgblight_segment_t* const PROGMEM my_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
@@ -77,12 +76,12 @@ const rgblight_segment_t* const PROGMEM my_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
 );
 
 void keyboard_post_init_user(void) {
-    // Enable the LED layers
+    /* Enable the LED layers */
     rgblight_layers = my_rgb_layers;
 }
 
 layer_state_t layer_state_set_user(layer_state_t state) {
-    // Both layers will light up if both kb layers are active
+    /* Both layers will light up if both kb layers are active */
     rgblight_set_layer_state(0, layer_state_cmp(state, 0));
     rgblight_set_layer_state(1, layer_state_cmp(state, 1));
     rgblight_set_layer_state(2, layer_state_cmp(state, 2));
@@ -93,4 +92,4 @@ bool led_update_user(led_t led_state) {
     rgblight_set_layer_state(0, true);
     return true;
 } 
-*/
+
