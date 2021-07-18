@@ -8,8 +8,6 @@ If you just want to use Vial, flash the boston_vial.bin file (using QMK Toolbox,
 
 The files in the \boston folder are used to compile the base firmware in vial-QMK. These may not compile in regular QMK due to differences between vial-QMK and regular QMK. These files are kept here as I doubt the QMK master repository will accept these.
 
-Current files use Vial Version 0.3
+Current files use Vial Version 0.4
 
 All files in this directory are licensed under the GNU General Public License V3.0.
-
-Due to current EEPROM limitations (1kb using emulated EEPROM), only 3 layers are available on Vial (as opposed to 8+ using regular QMK). A future release of Vial will up the emulated EEPROM to 4kb on STM32F072, which will increase the number of layers available. 
