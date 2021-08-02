@@ -6,4 +6,5 @@
   (lib (name "acheronMountingHoles")(type "KiCad")(uri "${ACHERONLIB}/AcheronLibrary/acheron_MountingHoles.pretty")(options "")(descr ""))
   (lib (name "acheronSwitchSlots")(type "KiCad")(uri "${ACHERONLIB}/AcheronLibrary/acheron_SwitchSlots.pretty")(options "")(descr ""))
   (lib (name "acheron_MX")(type "KiCad")(uri "${ACHERONLIB}/AcheronLibrary/acheron_MX.pretty")(options "")(descr ""))
+  (lib (name "SumidaInductor")(type "KiCad")(uri "${ACHERONLIB}/Boston/Boston - Current design/PCB/V0.6/Sumida0624CDMCC.pretty")(options "")(descr ""))
 )
