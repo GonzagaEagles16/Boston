@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 5.5,
+          "height": 11.0,
+          "width": 11.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [],
@@ -365,7 +365,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "FR4-fixed-layout-plate.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -401,7 +401,7 @@
   },
   "sheets": [
     [
-      "b68723d4-d5c5-4067-a51c-e6e7d872cf11",
+      "69e88f42-6395-41d9-b20b-fdfff049f71d",
       ""
     ]
   ],
